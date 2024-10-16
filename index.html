@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CPP POST usuariosWindows</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="container">
+        <h1 class="text-center">Crear usuario</h1>
+    </header>
+
+    <main class="container">
+        <form id="registroUsuario" class="w-50 m-auto">
+            <input type="text" id="usuario" class="form-control m-2" placeholder="usuario">
+            <input type="password" id="contra"  class="form-control m-2" placeholder="contraseña">
+
+            <input type="submit" class="btn btn-primary m-2">
+    
+            <div id="resultado" class="m-2 pt-4">...</div>
+        </form>
+    </main>
+
+    
+    <header class="container">
+        <h1 class="text-center">Eliminar usuario</h1>
+    </header>
+    <main class="container">
+        <form id="eliminaUsuario" class="w-50 m-auto">
+            <input type="text" id="usuarioElim" class="form-control m-2" placeholder="usuario">
+            <input type="submit" class="btn btn-primary m-2">
+            <div id="resultadoElim" class="m-2 pt-4">...</div>
+        </form>
+    </main>
+
+
+    <header class="container">
+        <h1 class="text-center">Cambiar contraseña usuario</h1>
+    </header>
+    <main class="container">
+        <form id="editUsuario" class="w-50 m-auto">
+            <input type="text" id="usuarioEdit" class="form-control m-2" placeholder="usuario">
+            <input type="password" id="contraEdit"  class="form-control m-2" placeholder="contraseña nueva">
+            <input type="submit" class="btn btn-primary m-2">
+            <div id="resultadoEdit" class="m-2 pt-4">...</div>
+        </form>
+    </main>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js?v001"></script>
+</body>
+</html>
